@@ -1,0 +1,4 @@
+Fire up a Command Prompt with Administrator Privilege
+Navigate to the SDK location
+Execute the Register_SDK batch
+To implement the biometric device, you will have to use the zkemkeeper.dll

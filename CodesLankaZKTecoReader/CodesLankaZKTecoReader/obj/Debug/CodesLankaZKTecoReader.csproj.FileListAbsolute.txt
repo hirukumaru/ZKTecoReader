@@ -1,0 +1,13 @@
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.csproj.AssemblyReference.cache
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\Interop.zkemkeeper.dll
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.csproj.ResolveComReference.cache
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.Properties.Resources.resources
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.csproj.GenerateResource.cache
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.csproj.CoreCompileInputs.cache
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\bin\Debug\CodesLankaZKTecoReader.exe
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\bin\Debug\CodesLankaZKTecoReader.pdb
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.exe
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.pdb
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.Form1.resources
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\bin\Debug\CodesLankaZKTecoReader.exe.config
+C:\my dev\ZKTecoReader\CodesLankaZKTecoReader\CodesLankaZKTecoReader\obj\Debug\CodesLankaZKTecoReader.csproj.SuggestedBindingRedirects.cache
