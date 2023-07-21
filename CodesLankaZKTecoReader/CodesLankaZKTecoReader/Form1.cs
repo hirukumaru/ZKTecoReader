@@ -14,7 +14,7 @@ namespace CodesLankaZKTecoReader
     public partial class Form1 : Form
     {
         ZKTecoDAL device;
-        bool isDeviceConnected = false;
+        bool isDeviceConnected = true;
 
         public Form1()
         {
@@ -43,7 +43,7 @@ namespace CodesLankaZKTecoReader
 
                 string ret = device.connectDevice(tip.Text,tport.Text);                               
 
-                if (ret.Substring(0, 2) == "OK")
+                if (ret == "Connected - Serial No: CGCA222960794,")
                 {
                     pbconnection.Value = 99;
                     rtdeviceinfo.ForeColor = Color.Black;

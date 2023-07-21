@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -43,10 +43,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.gridalldata = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.rtdeviceinfo = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pbconnection = new System.Windows.Forms.ProgressBar();
             this.lastatus = new System.Windows.Forms.Label();
+            this.pbconnection = new System.Windows.Forms.ProgressBar();
+            this.button1 = new System.Windows.Forms.Button();
+            this.rtdeviceinfo = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridalldata)).BeginInit();
@@ -158,7 +158,7 @@
             this.tip.Name = "tip";
             this.tip.Size = new System.Drawing.Size(120, 20);
             this.tip.TabIndex = 0;
-            this.tip.Text = "192.168.1.2";
+            this.tip.Text = "192.168.8.201";
             // 
             // panel2
             // 
@@ -173,20 +173,20 @@
             // 
             this.gridalldata.AllowUserToAddRows = false;
             this.gridalldata.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
-            this.gridalldata.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.gridalldata.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.gridalldata.BackgroundColor = System.Drawing.Color.Silver;
             this.gridalldata.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridalldata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridalldata.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridalldata.DefaultCellStyle = dataGridViewCellStyle2;
             this.gridalldata.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.gridalldata.Location = new System.Drawing.Point(3, 3);
             this.gridalldata.Name = "gridalldata";
@@ -207,33 +207,6 @@
             this.panel3.Size = new System.Drawing.Size(870, 72);
             this.panel3.TabIndex = 2;
             // 
-            // rtdeviceinfo
-            // 
-            this.rtdeviceinfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.rtdeviceinfo.Location = new System.Drawing.Point(13, 15);
-            this.rtdeviceinfo.Name = "rtdeviceinfo";
-            this.rtdeviceinfo.Size = new System.Drawing.Size(346, 43);
-            this.rtdeviceinfo.TabIndex = 0;
-            this.rtdeviceinfo.Text = "";
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(799, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(58, 46);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Save Data";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pbconnection
-            // 
-            this.pbconnection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pbconnection.Location = new System.Drawing.Point(607, 12);
-            this.pbconnection.Name = "pbconnection";
-            this.pbconnection.Size = new System.Drawing.Size(186, 46);
-            this.pbconnection.TabIndex = 10;
-            // 
             // lastatus
             // 
             this.lastatus.BackColor = System.Drawing.Color.Transparent;
@@ -245,6 +218,34 @@
             this.lastatus.TabIndex = 11;
             this.lastatus.Text = "Device Offline";
             this.lastatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pbconnection
+            // 
+            this.pbconnection.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pbconnection.Location = new System.Drawing.Point(607, 12);
+            this.pbconnection.Name = "pbconnection";
+            this.pbconnection.Size = new System.Drawing.Size(186, 46);
+            this.pbconnection.TabIndex = 10;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(799, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(58, 46);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Save Data";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // rtdeviceinfo
+            // 
+            this.rtdeviceinfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rtdeviceinfo.Location = new System.Drawing.Point(13, 15);
+            this.rtdeviceinfo.Name = "rtdeviceinfo";
+            this.rtdeviceinfo.ReadOnly = true;
+            this.rtdeviceinfo.Size = new System.Drawing.Size(346, 43);
+            this.rtdeviceinfo.TabIndex = 0;
+            this.rtdeviceinfo.Text = "";
             // 
             // Form1
             // 
